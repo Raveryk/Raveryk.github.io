@@ -2,8 +2,15 @@ body {
   background-color: #8FBC8F;
   color: #F5FFFA;
   font-family: Arial, Helvetica, sans-serif;
+  font-style:
   margin: 10% 20%;
   
+}
+
+h4 {
+  font-variant: all-small-caps;
+  font-weight: 200%;
+  font-size: 25px;
 }
 
 .exp-header {
@@ -23,5 +30,12 @@ ul {
   border: 5px solid #dddddd;
   border-color: #F5FFFA;
   width: 100%;
+  text-align: center;
+  
+  
+}
+
+.title, .exp-header {
+  font-style: oblique;
   
 }
