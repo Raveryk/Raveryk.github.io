@@ -16,8 +16,8 @@ h4 {
 .exp-header, .skills-header, .ref-header, .con-header {
   text-align: center;
   text-transform: uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
+  border-top: 10px solid #dddddd;
+  border-bottom: 10px solid #dddddd;
   background-color: rgba(0,0,0, 0.1);
 }
 
@@ -46,12 +46,13 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color:#dddddd
+  
 }
 
 
 .navbar li {
   float: left;
-  border-right: 1px solid #bbb
+  border-right: 10px solid WhiteSmoke
 }
 
 .navbar li:last-child {
@@ -60,16 +61,26 @@ ul {
 
 .navbar li a {
   display: block;
-  color: white;
+  color: #696969;
   text-align: center;
   padding; 14px 16px;
   text-decoration: none;
+  font-size: 15px
   
 }
 
 .navbar li a:hover {
   background-color: #111
 }
+
+.footerbar img{
+  width: 10%;
+  border: 0%;
+  
+}
+
+
+
 
 
 
